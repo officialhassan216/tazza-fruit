@@ -1,0 +1,350 @@
+
+/* Targeting various screen sizes based on max-width */
+@media (max-width: 1920px) {
+    /* CSS rules for screens up to 1920px wide */
+    .feature_section .features-box {
+        padding: 3rem 0;
+  }
+}
+  
+  @media (max-width: 1600px) {
+    /* CSS rules for screens up to 1600px wide */
+    .feature_section .features-box {
+        padding: 3rem 0;
+}
+
+}
+  @media (max-width: 1536px) {
+    /* CSS rules for screens up to 1536px wide */
+    .feature_section .features-box {
+        padding: 3rem 0;
+  }
+}
+  @media (max-width: 1440px) {
+    /* CSS rules for screens up to 1440px wide */
+    .feature_section .features-box {
+        padding: 3rem 0;
+  }
+}
+  
+  @media (max-width: 1400px) {
+    /* CSS rules for screens up to 1400px wide */
+    .feature_section .features-box {
+        padding: 3rem 0;
+  }
+}
+  
+  @media (max-width: 1366px) {
+    /* CSS rules for screens up to 1366px wide */
+    .feature_section .features-box {
+        padding: 3rem 0;
+  }
+
+  }
+
+  
+  @media (max-width: 1280px) {
+    /* CSS rules for screens up to 1280px wide */
+
+    .header .navbar {
+        padding: 2rem 5rem !important;
+    }
+
+
+    .feature_section .features-box {
+
+        padding: 3rem 0;
+  }
+  }
+  
+  @media (max-width: 1024px) {
+    /* CSS rules for screens up to 1024px wide */
+    .header .navbar {
+        padding: 2rem 5rem !important;
+    }
+    .feature_section .features-box {
+
+        padding: 3rem 0;
+  }
+}
+  
+  @media (max-width: 991px) {
+    /* CSS rules for screens up to 991px wide */
+    .about .banner_section, 
+    .product .banner_section,
+    .gallery .banner_section,
+    .contact .banner_section{
+        padding-top:12.5rem;
+        padding-bottom:3rem;
+    }
+
+
+
+    .header .navbar{
+        background-size: contain;
+        padding:2rem;
+        background: #03262c;
+    }
+     .nav .navbar-nav{
+        margin-top:2rem;
+     }
+    .header .navbar-nav .nav-link{
+        padding:0.2rem  0.5rem;
+        margin-bottom:1rem ;
+    }
+
+      .header .header_right span{
+        padding:0.2rem  0.5rem;
+      }
+
+      .footer_wrapper {   
+        padding: 12rem;
+            
+        }
+        .testimonial_section .card {
+            padding: 1rem 2rem 2rem 0;
+        }
+  }
+  
+  @media (max-width: 800px) {
+    /* CSS rules for screens up to 800px wide */
+  }
+  
+  @media (max-width: 767px) {
+    /* CSS rules for screens up to 767px wide */
+    .section-subtitle{
+        max-width:80%;
+    }
+
+    .banner_section{
+     min-height:70vh;
+    }
+    .banner_section   .carousel-item{
+        height:70vh;
+    }
+    
+  }
+  
+  @media (max-width: 600px) {
+    /* CSS rules for screens up to 600px wide */
+
+    .feature_section .features-box {
+        padding: 3rem 0;
+  }
+
+    .footer_wrapper .form-control,
+    .footer_wrapper .main-btn {
+        font-size: 1rem;
+    }
+
+    .footer_wrapper .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .footer_wrapper .col-lg-3 {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .footer_wrapper {
+        padding: 15rem 0rem;
+
+    }
+    .testimonial_section .card {
+    padding: 1rem 2rem 1rem 0;
+}
+
+.testimonial_section .desc-box img {
+    width:10%;
+}
+  }
+
+
+
+
+
+
+
+
+
+
+  
+  @media (max-width: 540px) {
+    /* CSS rules for screens up to 540px wide */
+        .footer_wrapper .form-control, .footer_wrapper .main-btn {
+            font-size: 1.7rem;
+        }
+    
+  }
+  
+  @media (max-width: 480px) {
+    /* CSS rules for screens up to 480px wide */
+    h1 {
+        font-size: 7rem;
+      
+  }
+}
+  @media (max-width: 425px) {
+    /* CSS rules for screens up to 425px wide */
+  }
+  
+  @media (max-width: 375px) {
+    /* CSS rules for screens up to 375px wide */
+    h1{
+    font-size: 5rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+}
+}
+  @media (max-width: 320px) {
+      /* CSS rules for screens up to 320px wide */
+
+      .footer_wrapper .form-control,
+      .footer_wrapper .main-btn {
+          font-size: 1rem;
+      }
+
+      .footer_wrapper .container {
+          padding-left: 10px;
+          padding-right: 10px;
+      }
+
+      .footer_wrapper .col-lg-3 {
+          max-width: 100%;
+          margin-bottom: 20px;
+      }
+
+
+      .footer_wrapper {
+          padding: 15rem 0rem;
+
+      }
+
+      .footer_wrapper .contact-info li a,
+      .footer_wrapper p {
+          padding-left: 0;
+      }
+
+
+      h3 {
+          font-size: 2rem;
+      }
+
+      .feature_section .features-box {
+          padding: 5rem 0;
+      }
+      .landing_about_section {
+        background-size: 1600px !important;
+        background-repeat: no-repeat;
+        background-position: -850px !important;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.479)), url(../assets/images/about/about-banner.jpg);
+    }
+    .landing_about_section p {
+        color: var(--bg-white);
+    }
+    h2 {
+        font-size: 3.7rem ;
+        color: var(--bg-white);
+    }
+    h1 {
+        font-size: 5rem;
+        line-height: 1.7;
+    
+    }
+    .footer_wrapper .form-control, .footer_wrapper .main-btn {
+        font-size: 1.7rem;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1170px){
+    .section-subtitle{
+      max-width:60%;
+    }
+
+    .header .navbar{
+        background-size: contain;
+        padding:2rem;
+    }
+     .nav .navbar-nav{
+        margin-top:2rem;
+     }
+    .header .navbar-nav .nav-link{
+        padding:0.2rem  0.5rem;
+        margin-bottom:1rem ;
+    }
+    .header .header_right span{
+        padding:0.2rem  0.5rem;
+      }
+}
+
+@media(max-width:991px){
+   
+
+}
+
+
+@media(max-width:767px){
+    
+    
+
+}
+
+@media(max-width:590px){
+    
+
+}
+/* 
+@media (max-width: 320px) {
+    .footer_wrapper .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .footer_wrapper .col-lg-3 {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer_wrapper .form-control,
+    .footer_wrapper .main-btn {
+        font-size: 0.75rem;
+    }
+    .footer_wrapper {   
+    padding: 15rem 2rem;
+        
+    }
+
+    600 footerr
+    991 testimonial section issues
+
+
+
+} */
+
+
+
+
